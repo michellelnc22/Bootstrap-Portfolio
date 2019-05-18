@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+}
+
+.navbar 
+{
+    justify-content: center; 
+    background: #4aaaa5; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+}
+
+.main-container {
+    float: left; 
+    width: 100%; 
+    max-width: 960px; 
+    padding: 30px; 
+    border: 1px solid #dddddd; 
+    background-image: url("assests/images/concrete_seamless.jpg"); 
+}
+
+.container {
+    width: 100%;
+    max-width: 960px; 
+    margin: 0 auto; 
+    clear: both;
+
+
+}
+
+h1 {
+    font-size: 30px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    line-height: 90px; 
+    color: #4aaaa5; 
+    border-bottom: 1px solid #999999; 
+    margin: 15px; 
+}
+
+#profilepic {
+    margin: 15px; 
+    padding: 15px; 
+    float: left; 
+}
+
+.work {
+    position: relative; 
+    float: left; 
+    width: 300px; 
+    margin: 20px; 
+    overflow: auto; 
+}
+
+.work h2 {
+    bottom: 10px; 
+    width: 100%; 
+    padding: 5px;
+    font-weight: bold;  
+}
+
+form {
+    margin: 5px; 
+    padding: 10px; 
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+    
+}
