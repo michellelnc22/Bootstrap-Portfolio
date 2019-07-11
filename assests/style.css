@@ -11,13 +11,18 @@
     font-weight: bold; 
 }
 
+body {
+    background-image: url("images/concrete_seamless.jpg"); 
+}
+
 .main-container {
     float: left; 
     width: 100%; 
     max-width: 960px; 
     padding: 30px; 
     border: 1px solid #dddddd; 
-    background-image: url("assests/images/concrete_seamless.jpg"); 
+    background: #eeeeee; 
+   
 }
 
 .container {
@@ -25,6 +30,7 @@
     max-width: 960px; 
     margin: 0 auto; 
     clear: both;
+    background: #eeeeee; 
 
 
 }
@@ -63,6 +69,7 @@ form {
     margin: 5px; 
     padding: 10px; 
 }
+
 
 @media only screen and (max-width: 980px) {
 
