@@ -48,12 +48,14 @@ h1 {
     margin: 15px; 
     padding: 15px; 
     float: left; 
+    height: 400px; 
+    width: 400px; 
 }
 
 .work {
     position: relative; 
     float: left; 
-    width: 300px; 
+    width: 300px;  
     margin: 20px; 
     overflow: auto; 
 }
